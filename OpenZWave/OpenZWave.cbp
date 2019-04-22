@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="OpenZWave" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="AES/;Command Classes/;Main/;Platform/;TinyXML/;Value Classes/;Platform/Unix/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/OpenZWave" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/libOpenZWave" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fPIC" />
+			<Add option="-fexceptions" />
+			<Add option="-fPIC" />
+			<Add directory="../tinyxml" />
+			<Add directory="src" />
+		</Compiler>
+		<Unit filename="../tinyxml/tinystr.cpp">
+			<Option virtualFolder="TinyXML/" />
+		</Unit>
+		<Unit filename="../tinyxml/tinystr.h">
+			<Option virtualFolder="TinyXML/" />
+		</Unit>
+		<Unit filename="../tinyxml/tinyxml.cpp">
+			<Option virtualFolder="TinyXML/" />
+		</Unit>
+		<Unit filename="../tinyxml/tinyxml.h">
+			<Option virtualFolder="TinyXML/" />
+		</Unit>
+		<Unit filename="../tinyxml/tinyxmlerror.cpp">
+			<Option virtualFolder="TinyXML/" />
+		</Unit>
+		<Unit filename="../tinyxml/tinyxmlparser.cpp">
+			<Option virtualFolder="TinyXML/" />
+		</Unit>
+		<Unit filename="src/Bitfield.h">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="src/Defs.h">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="src/DoxygenMain.h">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="src/Driver.cpp">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="src/Driver.h">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="src/Group.cpp">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="src/Group.h">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="src/Manager.cpp">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="src/Manager.h">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="src/Msg.cpp">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="src/Msg.h">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="src/Node.cpp">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="src/Node.h">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="src/Notification.cpp">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="src/Notification.h">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="src/OZWException.h">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="src/Options.cpp">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="src/Options.h">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="src/Scene.cpp">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="src/Scene.h">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="src/Utils.cpp">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="src/Utils.h">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="src/ZWSecurity.cpp">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="src/ZWSecurity.h">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="src/aes/aes.h">
+			<Option virtualFolder="AES/" />
+		</Unit>
+		<Unit filename="src/aes/aes_modes.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="AES/" />
+		</Unit>
+		<Unit filename="src/aes/aescpp.h">
+			<Option virtualFolder="AES/" />
+		</Unit>
+		<Unit filename="src/aes/aescrypt.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="AES/" />
+		</Unit>
+		<Unit filename="src/aes/aeskey.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="AES/" />
+		</Unit>
+		<Unit filename="src/aes/aesopt.h">
+			<Option virtualFolder="AES/" />
+		</Unit>
+		<Unit filename="src/aes/aestab.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="AES/" />
+		</Unit>
+		<Unit filename="src/aes/aestab.h">
+			<Option virtualFolder="AES/" />
+		</Unit>
+		<Unit filename="src/aes/brg_endian.h">
+			<Option virtualFolder="AES/" />
+		</Unit>
+		<Unit filename="src/aes/brg_types.h">
+			<Option virtualFolder="AES/" />
+		</Unit>
+		<Unit filename="src/command_classes/Alarm.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Alarm.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/ApplicationStatus.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/ApplicationStatus.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Association.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Association.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/AssociationCommandConfiguration.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/AssociationCommandConfiguration.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Basic.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Basic.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/BasicWindowCovering.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/BasicWindowCovering.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Battery.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Battery.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/CRC16Encap.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/CRC16Encap.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/CentralScene.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/CentralScene.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/ClimateControlSchedule.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/ClimateControlSchedule.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Clock.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Clock.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Color.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Color.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/CommandClass.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/CommandClass.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/CommandClasses.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/CommandClasses.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Configuration.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Configuration.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/ControllerReplication.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/ControllerReplication.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/DeviceResetLocally.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/DeviceResetLocally.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/DoorLock.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/DoorLock.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/DoorLockLogging.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/DoorLockLogging.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/EnergyProduction.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/EnergyProduction.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Hail.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Hail.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Indicator.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Indicator.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Language.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Language.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Lock.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Lock.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/ManufacturerSpecific.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/ManufacturerSpecific.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Meter.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Meter.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/MeterPulse.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/MeterPulse.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/MultiChannelAssociation.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/MultiChannelAssociation.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/MultiCmd.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/MultiCmd.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/MultiInstance.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/MultiInstance.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/NoOperation.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/NoOperation.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/NodeNaming.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/NodeNaming.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Powerlevel.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Powerlevel.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Proprietary.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Proprietary.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Protection.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Protection.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/SceneActivation.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/SceneActivation.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Security.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Security.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/SensorAlarm.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/SensorAlarm.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/SensorBinary.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/SensorBinary.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/SensorMultilevel.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/SensorMultilevel.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/SwitchAll.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/SwitchAll.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/SwitchBinary.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/SwitchBinary.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/SwitchMultilevel.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/SwitchMultilevel.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/SwitchToggleBinary.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/SwitchToggleBinary.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/SwitchToggleMultilevel.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/SwitchToggleMultilevel.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/ThermostatFanMode.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/ThermostatFanMode.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/ThermostatFanState.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/ThermostatFanState.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/ThermostatMode.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/ThermostatMode.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/ThermostatOperatingState.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/ThermostatOperatingState.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/ThermostatSetpoint.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/ThermostatSetpoint.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/TimeParameters.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/TimeParameters.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/UserCode.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/UserCode.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Version.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/Version.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/WakeUp.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/WakeUp.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/ZWavePlusInfo.cpp">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/command_classes/ZWavePlusInfo.h">
+			<Option virtualFolder="Command Classes/" />
+		</Unit>
+		<Unit filename="src/platform/Controller.cpp">
+			<Option virtualFolder="Platform/" />
+		</Unit>
+		<Unit filename="src/platform/Controller.h">
+			<Option virtualFolder="Platform/" />
+		</Unit>
+		<Unit filename="src/platform/Event.cpp">
+			<Option virtualFolder="Platform/" />
+		</Unit>
+		<Unit filename="src/platform/Event.h">
+			<Option virtualFolder="Platform/" />
+		</Unit>
+		<Unit filename="src/platform/FileOps.cpp">
+			<Option virtualFolder="Platform/" />
+		</Unit>
+		<Unit filename="src/platform/FileOps.h">
+			<Option virtualFolder="Platform/" />
+		</Unit>
+		<Unit filename="src/platform/HidController.cpp">
+			<Option virtualFolder="Platform/" />
+		</Unit>
+		<Unit filename="src/platform/HidController.h">
+			<Option virtualFolder="Platform/" />
+		</Unit>
+		<Unit filename="src/platform/Log.cpp">
+			<Option virtualFolder="Platform/" />
+		</Unit>
+		<Unit filename="src/platform/Log.h">
+			<Option virtualFolder="Platform/" />
+		</Unit>
+		<Unit filename="src/platform/Mutex.cpp">
+			<Option virtualFolder="Platform/" />
+		</Unit>
+		<Unit filename="src/platform/Mutex.h">
+			<Option virtualFolder="Platform/" />
+		</Unit>
+		<Unit filename="src/platform/Ref.h">
+			<Option virtualFolder="Platform/" />
+		</Unit>
+		<Unit filename="src/platform/SerialController.cpp">
+			<Option virtualFolder="Platform/" />
+		</Unit>
+		<Unit filename="src/platform/SerialController.h">
+			<Option virtualFolder="Platform/" />
+		</Unit>
+		<Unit filename="src/platform/Stream.cpp">
+			<Option virtualFolder="Platform/" />
+		</Unit>
+		<Unit filename="src/platform/Stream.h">
+			<Option virtualFolder="Platform/" />
+		</Unit>
+		<Unit filename="src/platform/Thread.cpp">
+			<Option virtualFolder="Platform/" />
+		</Unit>
+		<Unit filename="src/platform/Thread.h">
+			<Option virtualFolder="Platform/" />
+		</Unit>
+		<Unit filename="src/platform/TimeStamp.cpp">
+			<Option virtualFolder="Platform/" />
+		</Unit>
+		<Unit filename="src/platform/TimeStamp.h">
+			<Option virtualFolder="Platform/" />
+		</Unit>
+		<Unit filename="src/platform/Wait.cpp">
+			<Option virtualFolder="Platform/" />
+		</Unit>
+		<Unit filename="src/platform/Wait.h">
+			<Option virtualFolder="Platform/" />
+		</Unit>
+		<Unit filename="src/platform/unix/EventImpl.cpp">
+			<Option virtualFolder="Platform/Unix/" />
+		</Unit>
+		<Unit filename="src/platform/unix/EventImpl.h">
+			<Option virtualFolder="Platform/Unix/" />
+		</Unit>
+		<Unit filename="src/platform/unix/FileOpsImpl.cpp">
+			<Option virtualFolder="Platform/Unix/" />
+		</Unit>
+		<Unit filename="src/platform/unix/FileOpsImpl.h">
+			<Option virtualFolder="Platform/Unix/" />
+		</Unit>
+		<Unit filename="src/platform/unix/LogImpl.cpp">
+			<Option virtualFolder="Platform/Unix/" />
+		</Unit>
+		<Unit filename="src/platform/unix/LogImpl.h">
+			<Option virtualFolder="Platform/Unix/" />
+		</Unit>
+		<Unit filename="src/platform/unix/MutexImpl.cpp">
+			<Option virtualFolder="Platform/Unix/" />
+		</Unit>
+		<Unit filename="src/platform/unix/MutexImpl.h">
+			<Option virtualFolder="Platform/Unix/" />
+		</Unit>
+		<Unit filename="src/platform/unix/SerialControllerImpl.cpp">
+			<Option virtualFolder="Platform/Unix/" />
+		</Unit>
+		<Unit filename="src/platform/unix/SerialControllerImpl.h">
+			<Option virtualFolder="Platform/Unix/" />
+		</Unit>
+		<Unit filename="src/platform/unix/ThreadImpl.cpp">
+			<Option virtualFolder="Platform/Unix/" />
+		</Unit>
+		<Unit filename="src/platform/unix/ThreadImpl.h">
+			<Option virtualFolder="Platform/Unix/" />
+		</Unit>
+		<Unit filename="src/platform/unix/TimeStampImpl.cpp">
+			<Option virtualFolder="Platform/Unix/" />
+		</Unit>
+		<Unit filename="src/platform/unix/TimeStampImpl.h">
+			<Option virtualFolder="Platform/Unix/" />
+		</Unit>
+		<Unit filename="src/platform/unix/WaitImpl.cpp">
+			<Option virtualFolder="Platform/Unix/" />
+		</Unit>
+		<Unit filename="src/platform/unix/WaitImpl.h">
+			<Option virtualFolder="Platform/Unix/" />
+		</Unit>
+		<Unit filename="src/value_classes/Value.cpp">
+			<Option virtualFolder="Value Classes/" />
+		</Unit>
+		<Unit filename="src/value_classes/Value.h">
+			<Option virtualFolder="Value Classes/" />
+		</Unit>
+		<Unit filename="src/value_classes/ValueBool.cpp">
+			<Option virtualFolder="Value Classes/" />
+		</Unit>
+		<Unit filename="src/value_classes/ValueBool.h">
+			<Option virtualFolder="Value Classes/" />
+		</Unit>
+		<Unit filename="src/value_classes/ValueButton.cpp">
+			<Option virtualFolder="Value Classes/" />
+		</Unit>
+		<Unit filename="src/value_classes/ValueButton.h">
+			<Option virtualFolder="Value Classes/" />
+		</Unit>
+		<Unit filename="src/value_classes/ValueByte.cpp">
+			<Option virtualFolder="Value Classes/" />
+		</Unit>
+		<Unit filename="src/value_classes/ValueByte.h">
+			<Option virtualFolder="Value Classes/" />
+		</Unit>
+		<Unit filename="src/value_classes/ValueDecimal.cpp">
+			<Option virtualFolder="Value Classes/" />
+		</Unit>
+		<Unit filename="src/value_classes/ValueDecimal.h">
+			<Option virtualFolder="Value Classes/" />
+		</Unit>
+		<Unit filename="src/value_classes/ValueID.h">
+			<Option virtualFolder="Value Classes/" />
+		</Unit>
+		<Unit filename="src/value_classes/ValueInt.cpp">
+			<Option virtualFolder="Value Classes/" />
+		</Unit>
+		<Unit filename="src/value_classes/ValueInt.h">
+			<Option virtualFolder="Value Classes/" />
+		</Unit>
+		<Unit filename="src/value_classes/ValueList.cpp">
+			<Option virtualFolder="Value Classes/" />
+		</Unit>
+		<Unit filename="src/value_classes/ValueList.h">
+			<Option virtualFolder="Value Classes/" />
+		</Unit>
+		<Unit filename="src/value_classes/ValueRaw.cpp">
+			<Option virtualFolder="Value Classes/" />
+		</Unit>
+		<Unit filename="src/value_classes/ValueRaw.h">
+			<Option virtualFolder="Value Classes/" />
+		</Unit>
+		<Unit filename="src/value_classes/ValueSchedule.cpp">
+			<Option virtualFolder="Value Classes/" />
+		</Unit>
+		<Unit filename="src/value_classes/ValueSchedule.h">
+			<Option virtualFolder="Value Classes/" />
+		</Unit>
+		<Unit filename="src/value_classes/ValueShort.cpp">
+			<Option virtualFolder="Value Classes/" />
+		</Unit>
+		<Unit filename="src/value_classes/ValueShort.h">
+			<Option virtualFolder="Value Classes/" />
+		</Unit>
+		<Unit filename="src/value_classes/ValueStore.cpp">
+			<Option virtualFolder="Value Classes/" />
+		</Unit>
+		<Unit filename="src/value_classes/ValueStore.h">
+			<Option virtualFolder="Value Classes/" />
+		</Unit>
+		<Unit filename="src/value_classes/ValueString.cpp">
+			<Option virtualFolder="Value Classes/" />
+		</Unit>
+		<Unit filename="src/value_classes/ValueString.h">
+			<Option virtualFolder="Value Classes/" />
+		</Unit>
+		<Unit filename="winversion.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

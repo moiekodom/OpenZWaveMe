@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="MinOZWMe/MinOZWMe.cbp">
+			<Depends filename="OpenZWaveMe/OpenZWaveMe.cbp" />
+			<Depends filename="OpenZWave/OpenZWave.cbp" />
+		</Project>
+		<Project filename="OpenZWaveMe/OpenZWaveMe.cbp" />
+		<Project filename="OpenZWave/OpenZWave.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

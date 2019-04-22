@@ -1,0 +1,307 @@
+# depslib dependency file v1.0
+1555539047 source:/home/dkosarev/projects/OpenZWaveMe/MinOZWMe/main.cpp
+	"../OpenZWaveMe/src/Manager.h"
+
+1555502689 /home/dkosarev/projects/OpenZWaveMe/OpenZWaveMe/src/Manager.h
+	<platform/Mutex.h>
+	"Defs.h"
+	"Notification.h"
+	"Driver.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/OpenZWave/src/platform/Mutex.h
+	"platform/Wait.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/OpenZWave/src/platform/Wait.h
+	<list>
+	"platform/Ref.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/OpenZWave/src/platform/Ref.h
+	"Defs.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/OpenZWave/src/Defs.h
+	<assert.h>
+	<stdio.h>
+	<string>
+	<stdint.h>
+	"OZWException.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/OpenZWave/src/OZWException.h
+	<stdexcept>
+	<iostream>
+	<string>
+	<sstream>
+
+1555433481 /home/dkosarev/projects/OpenZWaveMe/OpenZWaveMe/src/Defs.h
+	<assert.h>
+	<windows.h>
+	<unistd.h>
+	<stdio.h>
+	<exception>
+	<string>
+	<vector>
+	<list>
+	<map>
+	<utility>
+	<algorithm>
+	<Defs.h>
+	<OZWException.h>
+	<platform/Log.h>
+	<Options.h>
+	<Utils.h>
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/OpenZWave/src/platform/Log.h
+	<stdarg.h>
+	<string>
+	"Defs.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/OpenZWave/src/Options.h
+	<string>
+	<cstring>
+	<map>
+	"Defs.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/OpenZWave/src/Utils.h
+	"platform/Mutex.h"
+	"platform/Log.h"
+	<string>
+	<locale>
+	<algorithm>
+	<sstream>
+	<vector>
+
+1555268277 /home/dkosarev/projects/OpenZWaveMe/OpenZWaveMe/src/Notification.h
+	<Driver.h>
+	<Notification.h>
+	"Defs.h"
+	"value_classes/ValueID.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/OpenZWave/src/Driver.h
+	<string>
+	<map>
+	<list>
+	"Defs.h"
+	"Group.h"
+	"value_classes/ValueID.h"
+	"Node.h"
+	"platform/Event.h"
+	"platform/Mutex.h"
+	"platform/TimeStamp.h"
+	"aes/aescpp.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/OpenZWave/src/Group.h
+	<string>
+	<vector>
+	<map>
+	"Defs.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/OpenZWave/src/value_classes/ValueID.h
+	<string>
+	<assert.h>
+	"Defs.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/OpenZWave/src/Node.h
+	<string>
+	<vector>
+	<list>
+	<map>
+	"Defs.h"
+	"value_classes/ValueID.h"
+	"value_classes/ValueList.h"
+	"Msg.h"
+	"platform/TimeStamp.h"
+	"Group.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/OpenZWave/src/value_classes/ValueList.h
+	<string>
+	<vector>
+	"Defs.h"
+	"value_classes/Value.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/OpenZWave/src/value_classes/Value.h
+	<string>
+	<time.h>
+	"Defs.h"
+	"platform/Ref.h"
+	"value_classes/ValueID.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/OpenZWave/src/Msg.h
+	<cstdio>
+	<string>
+	<string.h>
+	"Defs.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/OpenZWave/src/platform/TimeStamp.h
+	"Defs.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/OpenZWave/src/platform/Event.h
+	"platform/Wait.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/OpenZWave/src/aes/aescpp.h
+	"aes.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/OpenZWave/src/aes/aes.h
+	<stdlib.h>
+	"brg_types.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/OpenZWave/src/aes/brg_types.h
+	<limits.h>
+	<stdint.h>
+	<stddef.h>
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/OpenZWave/src/Notification.h
+	"Defs.h"
+	"value_classes/ValueID.h"
+
+1554985903 /home/dkosarev/projects/OpenZWaveMe/OpenZWaveMe/src/value_classes/ValueID.h
+	<value_classes/ValueID.h>
+	"../Defs.h"
+
+1555270883 /home/dkosarev/projects/OpenZWaveMe/OpenZWaveMe/src/Driver.h
+	<platform/TimeStamp.h>
+	<platform/Event.h>
+	<platform/Mutex.h>
+	<platform/Thread.h>
+	<platform/Wait.h>
+	<aes/aescpp.h>
+	<value_classes/Value.h>
+	<command_classes/WakeUp.h>
+	<Msg.h>
+	<Driver.h>
+	"Defs.h"
+	"platform/ZWaySerialController.h"
+	"Notification.h"
+	"Node.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/OpenZWave/src/platform/Thread.h
+	<string>
+	"Defs.h"
+	"platform/Wait.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/OpenZWave/src/command_classes/WakeUp.h
+	<list>
+	"command_classes/CommandClass.h"
+	"Driver.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/OpenZWave/src/command_classes/CommandClass.h
+	<string>
+	<vector>
+	<map>
+	"Defs.h"
+	"Bitfield.h"
+	"Driver.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/OpenZWave/src/Bitfield.h
+	<vector>
+	"Defs.h"
+
+1555514163 /home/dkosarev/projects/OpenZWaveMe/OpenZWaveMe/src/platform/ZWaySerialController.h
+	"../Defs.h"
+	<ZWayLib.h>
+	"Controller.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/include/libzway/ZWayLib.h
+	"ZErrors.h"
+	"ZLog.h"
+	"ZDefsPublic.h"
+	"FunctionClassesPublic.h"
+	"CommandClassesPublic.h"
+	"ZDataExt.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/include/libzway/ZErrors.h
+	"ZPlatform.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/include/libzway/ZPlatform.h
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<math.h>
+	<sal.h>
+	<WinSock2.h>
+	<Windows.h>
+	<shlwapi.h>
+	<io.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<stdint.h>
+	<time.h>
+	<tchar.h>
+	<sys/io.h>
+	<fcntl.h>
+	<sys/socket.h>
+	<netdb.h>
+	<unistd.h>
+	<pthread.h>
+	<sys/errno.h>
+	<sys/stat.h>
+	<sys/time.h>
+	<termios.h>
+	<memory.h>
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/include/libzway/ZLog.h
+	"ZPlatform.h"
+	"ZErrors.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/include/libzway/ZDefsPublic.h
+	"ZPlatform.h"
+	"ZData.h"
+	"ZMalloc.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/include/libzway/ZData.h
+	"ZPlatform.h"
+	"ZErrors.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/include/libzway/ZMalloc.h
+	<stdio.h>
+	"ZPlatform.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/include/libzway/FunctionClassesPublic.h
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/include/libzway/CommandClassesPublic.h
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/include/libzway/ZDataExt.h
+	"ZPlatform.h"
+	"ZWayLib.h"
+
+1555425977 /home/dkosarev/projects/OpenZWaveMe/OpenZWaveMe/src/platform/Controller.h
+	<platform/Stream.h>
+	<Msg.h>
+	<Driver.h>
+	"../Defs.h"
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/OpenZWave/src/platform/Stream.h
+	"Defs.h"
+	"platform/Wait.h"
+	<string>
+
+1554985903 /home/dkosarev/projects/OpenZWaveMe/OpenZWaveMe/src/Node.h
+	<tinyxml.h>
+	<platform/TimeStamp.h>
+	<value_classes/Value.h>
+	<value_classes/ValueStore.h>
+	<command_classes/CommandClass.h>
+	<Node.h>
+	<Group.h>
+	"Defs.h"
+	"value_classes/ValueID.h"
+
+1554985903 /home/dkosarev/projects/OpenZWaveMe/tinyxml/tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1554985903 /home/dkosarev/projects/OpenZWaveMe/tinyxml/tinystr.h
+	<assert.h>
+	<string.h>
+
+1554985902 /home/dkosarev/projects/OpenZWaveMe/OpenZWave/src/value_classes/ValueStore.h
+	<map>
+	"Defs.h"
+	"value_classes/ValueID.h"
+

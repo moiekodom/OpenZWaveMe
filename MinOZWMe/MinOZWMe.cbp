@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MinOZWMe" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MinOZWMe" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add directory="../OpenZWave/bin/Debug" />
+					<Add directory="../OpenZWaveMe/bin/Debug" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MinOZWMe" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="../tinyxml" />
+			<Add directory="../include/libzway" />
+			<Add directory="../OpenZWave/src" />
+			<Add directory="../src" />
+		</Compiler>
+		<Linker>
+			<Add library="OpenZWaveMe" />
+			<Add library="OpenZWave" />
+			<Add library="zway" />
+			<Add library="zcommons" />
+			<Add library="zs2" />
+			<Add library="xml2" />
+			<Add library="pthread" />
+			<Add library="archive" />
+			<Add library="crypto" />
+			<Add directory="../lib/libzway" />
+			<Add directory="../lib/other" />
+		</Linker>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
